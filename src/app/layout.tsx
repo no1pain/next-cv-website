@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Professional Resume",
-  description: "Personal resume and portfolio website",
+  title: "Oleksandr Kazan | Frontend Developer",
+  description:
+    "Personal resume and portfolio website of Oleksandr Kazan, Frontend Developer",
 };
 
 export default function RootLayout({
@@ -31,7 +32,7 @@ export default function RootLayout({
         <header className="bg-gray-800 text-white p-4">
           <nav className="max-w-6xl mx-auto flex justify-between items-center">
             <Link href="/" className="text-xl font-bold">
-              My Resume
+              Oleksandr Kazan
             </Link>
             <div className="space-x-4">
               <Link href="/" className="hover:underline">
@@ -46,7 +47,10 @@ export default function RootLayout({
         <main className="max-w-6xl mx-auto p-4">{children}</main>
         <footer className="bg-gray-800 text-white p-4 mt-8">
           <div className="max-w-6xl mx-auto text-center">
-            <p>© {new Date().getFullYear()} - My Professional Resume</p>
+            <p>
+              © {new Date().getFullYear()} - Oleksandr Kazan | Frontend
+              Developer
+            </p>
           </div>
         </footer>
       </body>

@@ -11,12 +11,12 @@ export default function Home() {
           </div>
         </div>
         <div className="text-center md:text-left">
-          <h1 className="text-4xl font-bold mb-2">John Doe</h1>
-          <h2 className="text-2xl text-gray-600 mb-4">Full Stack Developer</h2>
+          <h1 className="text-4xl font-bold mb-2">Oleksandr Kazan</h1>
+          <h2 className="text-2xl text-gray-600 mb-4">Frontend Developer</h2>
           <p className="text-gray-700 max-w-2xl">
-            Passionate developer with expertise in building modern web
-            applications. Skilled in React, Next.js, Node.js, and cloud
-            technologies.
+            Frontend Developer with a technical background and over 1 year of
+            experience creating modern and efficient web interfaces. Proficient
+            in React, Next.js, Redux Toolkit, TypeScript, and Tailwind CSS.
           </p>
         </div>
       </section>
@@ -40,7 +40,7 @@ export default function Home() {
                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
               />
             </svg>
-            <span>john.doe@example.com</span>
+            <span>fe.oleksandr.kazan@gmail.com</span>
           </div>
           <div className="flex items-center gap-2">
             <svg
@@ -57,7 +57,7 @@ export default function Home() {
                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
               />
             </svg>
-            <span>(123) 456-7890</span>
+            <span>+38 093 473 6590</span>
           </div>
           <div className="flex items-center gap-2">
             <svg
@@ -80,7 +80,7 @@ export default function Home() {
                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
               />
             </svg>
-            <span>San Francisco, CA</span>
+            <span>Lviv, Ukraine, remote</span>
           </div>
           <div className="flex items-center gap-2">
             <svg
@@ -98,85 +98,177 @@ export default function Home() {
               />
             </svg>
             <a
-              href="https://github.com/johndoe"
+              href="https://github.com/wxxzss"
               className="text-blue-600 hover:underline"
             >
-              github.com/johndoe
+              GitHub
+            </a>
+          </div>
+          <div className="flex items-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-gray-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+              />
+            </svg>
+            <a
+              href="https://t.me/wxxzss"
+              className="text-blue-600 hover:underline"
+            >
+              Telegram: @wxxzss
+            </a>
+          </div>
+          <div className="flex items-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-gray-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"
+              />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M2 9h4v12H2z"
+              />
+              <circle cx="4" cy="4" r="2" stroke="currentColor" />
+            </svg>
+            <a
+              href="https://www.linkedin.com/in/oleksandr-kazan-465771341/"
+              className="text-blue-600 hover:underline"
+            >
+              LinkedIn
             </a>
           </div>
         </div>
       </section>
 
-      {/* Experience */}
+      {/* Profile */}
       <section>
-        <h2 className="text-2xl font-bold mb-4 border-b pb-2">
-          Professional Experience
-        </h2>
-
-        <div className="mb-6">
-          <div className="flex flex-col md:flex-row md:justify-between mb-2">
-            <h3 className="text-xl font-semibold">Senior Developer</h3>
-            <span className="text-gray-600">Jan 2020 - Present</span>
-          </div>
-          <h4 className="text-lg text-gray-700 mb-2">Tech Innovations Inc.</h4>
-          <ul className="list-disc pl-5 space-y-1 text-gray-700">
-            <li>
-              Led development of a React-based dashboard that improved client
-              engagement by 40%
-            </li>
-            <li>
-              Architected and implemented microservices using Node.js and Docker
-            </li>
-            <li>Mentored junior developers and conducted code reviews</li>
-          </ul>
-        </div>
-
-        <div className="mb-6">
-          <div className="flex flex-col md:flex-row md:justify-between mb-2">
-            <h3 className="text-xl font-semibold">Web Developer</h3>
-            <span className="text-gray-600">Jun 2017 - Dec 2019</span>
-          </div>
-          <h4 className="text-lg text-gray-700 mb-2">Digital Solutions LLC</h4>
-          <ul className="list-disc pl-5 space-y-1 text-gray-700">
-            <li>Developed responsive web applications using React and Redux</li>
-            <li>Implemented RESTful APIs using Express.js and MongoDB</li>
-            <li>Improved site performance by 30% through code optimization</li>
-          </ul>
-        </div>
+        <h2 className="text-2xl font-bold mb-4 border-b pb-2">Profile</h2>
+        <p className="text-gray-700 mb-4">
+          Frontend Developer with a technical background and over 1 year of
+          experience creating modern and efficient web interfaces. Proficient in
+          React, Next.js, Redux Toolkit, TypeScript, and Tailwind CSS, with
+          hands-on expertise in React Native (Expo), WebSockets, and REST APIs.
+          Skilled in building scalable web and mobile solutions, implementing
+          authentication (JWT), and ensuring code quality with ESLint and
+          Prettier.
+        </p>
+        <p className="text-gray-700 mb-4">
+          Strong in problem-solving, having solved 100+ algorithmic challenges
+          on LeetCode, which improved my logical thinking and ability to handle
+          complex tasks. Winning the Math Olympiad (2022) further sharpened my
+          analytical skills, which I now apply to tackle challenges in
+          development. I thrive in collaborative environments, combining
+          problem-solving and teamwork to deliver practical solutions.
+        </p>
       </section>
 
       {/* Skills */}
       <section>
         <h2 className="text-2xl font-bold mb-4 border-b pb-2">Skills</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <h3 className="text-xl font-semibold mb-2">Frontend</h3>
+            <h3 className="text-xl font-semibold mb-3">Frontend</h3>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {[
+                "JavaScript",
+                "TypeScript",
+                "React",
+                "Next.js",
+                "Redux-toolkit",
+                "React Native (Expo)",
+                "HTML5",
+                "CSS3",
+                "Tailwind CSS",
+                "Sass (SCSS)",
+                "BEM",
+              ].map((skill) => (
+                <span
+                  key={skill}
+                  className="bg-gray-200 px-3 py-1 rounded-full text-sm"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+
+            <h3 className="text-xl font-semibold mb-3 mt-6">Backend & Tools</h3>
             <div className="flex flex-wrap gap-2">
-              {["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux"].map(
-                (skill) => (
-                  <span
-                    key={skill}
-                    className="bg-gray-200 px-3 py-1 rounded-full text-sm"
-                  >
-                    {skill}
-                  </span>
-                )
-              )}
+              {[
+                "Node.js",
+                "Express.js",
+                "JWT",
+                "REST API",
+                "Web sockets",
+                "Git",
+                "Webpack",
+                "Vite",
+                "ESLint",
+                "Prettier",
+              ].map((skill) => (
+                <span
+                  key={skill}
+                  className="bg-gray-200 px-3 py-1 rounded-full text-sm"
+                >
+                  {skill}
+                </span>
+              ))}
             </div>
           </div>
+
           <div>
-            <h3 className="text-xl font-semibold mb-2">Backend</h3>
+            <h3 className="text-xl font-semibold mb-3">Testing & Other</h3>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {[
+                "Jest",
+                "React Testing Library",
+                "Fetch",
+                "React Hook Form",
+                "Basic OOP understanding",
+                "Knowledge of Agile concepts (Scrum)",
+              ].map((skill) => (
+                <span
+                  key={skill}
+                  className="bg-gray-200 px-3 py-1 rounded-full text-sm"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+
+            <h3 className="text-xl font-semibold mb-3 mt-6">
+              Additional Skills
+            </h3>
             <div className="flex flex-wrap gap-2">
-              {["Node.js", "Express", "MongoDB", "PostgreSQL", "GraphQL"].map(
-                (skill) => (
-                  <span
-                    key={skill}
-                    className="bg-gray-200 px-3 py-1 rounded-full text-sm"
-                  >
-                    {skill}
-                  </span>
-                )
-              )}
+              {[
+                "Algorithms: Solved 100+ problems on LeetCode",
+                "Basic C/C++/C# knowledge",
+                "English: Upper-Intermediate",
+              ].map((skill) => (
+                <span
+                  key={skill}
+                  className="bg-gray-200 px-3 py-1 rounded-full text-sm"
+                >
+                  {skill}
+                </span>
+              ))}
             </div>
           </div>
         </div>
@@ -188,11 +280,11 @@ export default function Home() {
         <div className="mb-4">
           <div className="flex flex-col md:flex-row md:justify-between">
             <h3 className="text-xl font-semibold">
-              Bachelor of Science in Computer Science
+              Mathematics and Computer Science
             </h3>
-            <span className="text-gray-600">2013 - 2017</span>
+            <span className="text-gray-600">2022</span>
           </div>
-          <p className="text-lg text-gray-700">University of Technology</p>
+          <p className="text-lg text-gray-700">Math Olympiad Winner</p>
         </div>
       </section>
     </div>
