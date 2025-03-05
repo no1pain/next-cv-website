@@ -2,100 +2,199 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="space-y-8">
+      {/* Hero Section */}
+      <section className="flex flex-col md:flex-row items-center gap-8 py-8">
+        <div className="w-48 h-48 relative rounded-full overflow-hidden border-4 border-gray-200">
+          <div className="absolute inset-0 bg-gray-300 flex items-center justify-center text-gray-500">
+            <span className="text-4xl">Photo</span>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <div className="text-center md:text-left">
+          <h1 className="text-4xl font-bold mb-2">John Doe</h1>
+          <h2 className="text-2xl text-gray-600 mb-4">Full Stack Developer</h2>
+          <p className="text-gray-700 max-w-2xl">
+            Passionate developer with expertise in building modern web
+            applications. Skilled in React, Next.js, Node.js, and cloud
+            technologies.
+          </p>
+        </div>
+      </section>
+
+      {/* Contact Information */}
+      <section className="bg-gray-100 p-6 rounded-lg">
+        <h2 className="text-xl font-bold mb-4">Contact Information</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="flex items-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-gray-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
+            </svg>
+            <span>john.doe@example.com</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-gray-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+              />
+            </svg>
+            <span>(123) 456-7890</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-gray-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+              />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+            </svg>
+            <span>San Francisco, CA</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-gray-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              />
+            </svg>
+            <a
+              href="https://github.com/johndoe"
+              className="text-blue-600 hover:underline"
+            >
+              github.com/johndoe
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Experience */}
+      <section>
+        <h2 className="text-2xl font-bold mb-4 border-b pb-2">
+          Professional Experience
+        </h2>
+
+        <div className="mb-6">
+          <div className="flex flex-col md:flex-row md:justify-between mb-2">
+            <h3 className="text-xl font-semibold">Senior Developer</h3>
+            <span className="text-gray-600">Jan 2020 - Present</span>
+          </div>
+          <h4 className="text-lg text-gray-700 mb-2">Tech Innovations Inc.</h4>
+          <ul className="list-disc pl-5 space-y-1 text-gray-700">
+            <li>
+              Led development of a React-based dashboard that improved client
+              engagement by 40%
+            </li>
+            <li>
+              Architected and implemented microservices using Node.js and Docker
+            </li>
+            <li>Mentored junior developers and conducted code reviews</li>
+          </ul>
+        </div>
+
+        <div className="mb-6">
+          <div className="flex flex-col md:flex-row md:justify-between mb-2">
+            <h3 className="text-xl font-semibold">Web Developer</h3>
+            <span className="text-gray-600">Jun 2017 - Dec 2019</span>
+          </div>
+          <h4 className="text-lg text-gray-700 mb-2">Digital Solutions LLC</h4>
+          <ul className="list-disc pl-5 space-y-1 text-gray-700">
+            <li>Developed responsive web applications using React and Redux</li>
+            <li>Implemented RESTful APIs using Express.js and MongoDB</li>
+            <li>Improved site performance by 30% through code optimization</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Skills */}
+      <section>
+        <h2 className="text-2xl font-bold mb-4 border-b pb-2">Skills</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <h3 className="text-xl font-semibold mb-2">Frontend</h3>
+            <div className="flex flex-wrap gap-2">
+              {["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux"].map(
+                (skill) => (
+                  <span
+                    key={skill}
+                    className="bg-gray-200 px-3 py-1 rounded-full text-sm"
+                  >
+                    {skill}
+                  </span>
+                )
+              )}
+            </div>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold mb-2">Backend</h3>
+            <div className="flex flex-wrap gap-2">
+              {["Node.js", "Express", "MongoDB", "PostgreSQL", "GraphQL"].map(
+                (skill) => (
+                  <span
+                    key={skill}
+                    className="bg-gray-200 px-3 py-1 rounded-full text-sm"
+                  >
+                    {skill}
+                  </span>
+                )
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Education */}
+      <section>
+        <h2 className="text-2xl font-bold mb-4 border-b pb-2">Education</h2>
+        <div className="mb-4">
+          <div className="flex flex-col md:flex-row md:justify-between">
+            <h3 className="text-xl font-semibold">
+              Bachelor of Science in Computer Science
+            </h3>
+            <span className="text-gray-600">2013 - 2017</span>
+          </div>
+          <p className="text-lg text-gray-700">University of Technology</p>
+        </div>
+      </section>
     </div>
   );
 }
