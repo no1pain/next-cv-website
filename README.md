@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js CV Website
 
-## Getting Started
+A modern, responsive CV/portfolio website built with Next.js 14, React, and Tailwind CSS. This project showcases a clean, dark-themed design with glassmorphism effects and a component-based architecture.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Modern UI Design**: Dark theme with glassmorphism effects and gradient accents
+- **Responsive Layout**: Optimized for all device sizes
+- **Component-Based Architecture**: Well-organized and maintainable code structure
+- **Projects Showcase**: Display your projects with technology tags and links
+- **SEO Optimized**: Built with Next.js for better search engine visibility
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔗 Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+View the live demo: [https://no1pain.github.io/next-cv-website/](https://no1pain.github.io/next-cv-website/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> **Note**: If the demo link isn't working yet, it's likely because:
+>
+> 1. The GitHub Pages deployment is still in progress (can take up to 10 minutes)
+> 2. The GitHub Pages settings need to be configured properly
+> 3. The repository needs to be public for GitHub Pages to work with the free plan
 
-## Learn More
+## ❓ Why Can't I See the Demo Link in GitHub Pages Settings?
 
-To learn more about Next.js, take a look at the following resources:
+If you're looking at `https://github.com/no1pain/next-cv-website/settings/pages` and don't see a demo link, here are the common reasons:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **First Deployment Not Complete**: The first deployment can take 5-10 minutes to complete. After that, the link will appear.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Branch Not Published**: Make sure your `gh-pages` branch exists and is selected as the source in GitHub Pages settings.
 
-## Deploy on Vercel
+3. **Build Process Failed**: Check the Actions tab in your repository to see if there were any errors in the GitHub Actions workflow.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Repository Visibility**: Ensure your repository is public if you're using the free GitHub plan.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. **Missing Index.html**: The `out` directory must contain an `index.html` file at its root.
+
+6. **Need to Refresh**: Sometimes you need to refresh the settings page after deployment completes to see the link.
+
+To fix this, try:
+
+- Pushing a small change to trigger a new deployment
+- Manually selecting the `gh-pages` branch in the GitHub Pages settings
+- Checking the Actions tab for any build errors
+- Adding a README.md file to your repository (sometimes this triggers the GitHub Pages setup)
+
+## 🛠️ Technologies Used
+
+- **Next.js 14**: React framework with server-side rendering capabilities
+- **React 19**: JavaScript library for building user interfaces
+- **TypeScript**: Type-safe JavaScript
+- **Tailwind CSS**: Utility-first CSS framework
+- **GitHub Pages**: For hosting the static site
+
+## 📋 Setup Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/no1pain/next-cv-website.git
+   cd next-cv-website
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+
+   ```bash
+   npm run build
+   ```
+
+5. Deploy to GitHub Pages:
+   ```bash
+   npm run deploy
+   ```
+
+## 🚀 Deployment
+
+This project is configured for GitHub Pages deployment. To set up GitHub Pages:
+
+1. Go to your repository settings: `https://github.com/no1pain/next-cv-website/settings/pages`
+2. Under "Source", select "Deploy from a branch"
+3. Select the "gh-pages" branch and "/ (root)" folder
+4. Click "Save"
+
+Alternatively, the project includes a GitHub Actions workflow that automatically deploys to GitHub Pages when you push to the main branch.
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👤 Author
+
+- Oleksandr Kazan - Frontend Developer

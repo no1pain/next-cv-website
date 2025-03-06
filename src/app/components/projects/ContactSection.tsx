@@ -14,13 +14,13 @@ export default function ContactSection() {
 
       <div className="inline-block mb-6">
         <h2 className="text-2xl font-bold gradient-text">
-          Let's Work Together
+          Let&apos;s Work Together
         </h2>
         <div className="h-1 w-1/4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mt-2"></div>
       </div>
 
       <p className="mb-6 backdrop-blur-sm rounded-xl bg-white/5 p-4 border border-white/10">
-        I'm always open to discussing new projects, creative ideas, or
+        I&apos;m always open to discussing new projects, creative ideas, or
         opportunities to be part of your vision. Feel free to contact me through
         any of the channels listed on my resume.
       </p>
