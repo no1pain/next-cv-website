@@ -12,7 +12,7 @@ A modern, responsive CV/portfolio website built with Next.js 14, React, and Tail
 
 ## 🔗 Demo
 
-View the live demo: [https://no1pain.github.io/next-cv-website/](https://no1pain.github.io/next-cv-website/)
+View the deployment on vercel: [DEMO LINK](https://next-cv-website.vercel.app/)
 
 ## 🛠️ Technologies Used
 
