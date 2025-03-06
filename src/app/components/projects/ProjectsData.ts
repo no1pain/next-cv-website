@@ -94,7 +94,6 @@ export const projects: Project[] = [
     demoLink: "https://no1pain.github.io/TileMaster_2048/",
     githubLink: "https://github.com/no1pain/TileMaster_2048",
   },
-
   {
     id: 6,
     title: "BakeCraft Studio",
