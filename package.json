@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && node fix-css-paths.js && node scripts/fix-html-paths.js",
+    "clean": "gh-pages-clean",
+    "predeploy": "npm run export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "next": "15.2.1",
@@ -22,6 +26,8 @@
     "css-loader": "^6.10.0",
     "eslint": "^9",
     "eslint-config-next": "15.2.1",
+    "gh-pages": "^6.3.0",
+    "glob": "^10.4.5",
     "style-loader": "^3.3.4",
     "tailwindcss": "^4",
     "typescript": "^5"
