@@ -21,7 +21,7 @@ export const projects: Project[] = [
     gradient: "from-blue-600 via-indigo-500 to-purple-600",
     link: "#",
     demoLink: "#",
-    githubLink: "https://github.com/no1pain",
+    githubLink: "https://github.com/no1pain/next-cv-website",
   },
   {
     id: 2,
