@@ -56,19 +56,4 @@ View the live demo: [https://no1pain.github.io/next-cv-website/](https://no1pain
 
 ## 🚀 Deployment
 
-This project is configured for GitHub Pages deployment. To set up GitHub Pages:
-
-1. Go to your repository settings: `https://github.com/no1pain/next-cv-website/settings/pages`
-2. Under "Source", select "Deploy from a branch"
-3. Select the "gh-pages" branch and "/ (root)" folder
-4. Click "Save"
-
-Alternatively, the project includes a GitHub Actions workflow that automatically deploys to GitHub Pages when you push to the main branch.
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👤 Author
-
-- Oleksandr Kazan - Frontend Developer
+This project is configured for GitHub Pages deployment
