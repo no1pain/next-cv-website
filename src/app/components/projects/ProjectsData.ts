@@ -94,30 +94,7 @@ export const projects: Project[] = [
     demoLink: "https://no1pain.github.io/TileMaster_2048/",
     githubLink: "https://github.com/no1pain/TileMaster_2048",
   },
-  {
-    id: 5,
-    title: "React E-Commerce Dashboard",
-    description:
-      "A responsive e-commerce admin dashboard built with React and Redux Toolkit. Features include product management, order tracking, and sales analytics with interactive charts. The application uses Supabase for backend services including authentication, database, and storage solutions.",
-    technologies: [
-      "React",
-      "Redux Toolkit",
-      "TypeScript",
-      "Tailwind CSS",
-      "Supabase",
-      "Authentication",
-      "Real-time Data",
-      "React Query",
-      "Form Validation",
-      "Responsive Tables",
-      "Data Visualization",
-    ],
-    icon: "M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z",
-    gradient: "from-cyan-500 via-blue-500 to-indigo-500",
-    link: "#",
-    demoLink: "#",
-    githubLink: "https://github.com/no1pain",
-  },
+
   {
     id: 6,
     title: "BakeCraft Studio",
@@ -163,7 +140,7 @@ export const projects: Project[] = [
     icon: "M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z",
     gradient: "from-green-500 via-emerald-500 to-teal-500",
     link: "#",
-    demoLink: "#",
-    githubLink: "#",
+    demoLink: "https://no1pain.github.io/Velocity_Rides/",
+    githubLink: "https://github.com/no1pain/Velocity_Rides",
   },
 ];
