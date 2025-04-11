@@ -3,6 +3,28 @@ import { Project } from "./ProjectCard";
 export const projects: Project[] = [
   {
     id: 1,
+    title: "Linx Net",
+    description:
+      "Linx-Net is a modern, user-friendly e-commerce web application built with React and TypeScript. The platform offers a seamless shopping experience for electronic devices, including mobile phones, tablets, and accessories.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "React Router",
+      "React Hooks",
+      "Custom Components",
+      "SVG Sprites",
+      "Responsive Design",
+    ],
+    icon: "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+    gradient: "from-blue-600 via-indigo-500 to-purple-600",
+    link: "#",
+    demoLink: "https://linx-net.vercel.app/",
+    githubLink: "https://github.com/no1pain/Linx-Net",
+    previewImage: "/preview-images/linx-net.png",
+  },
+  {
+    id: 2,
     title: "Next.js Portfolio Website",
     description:
       "This modern portfolio website built with Next.js and Tailwind CSS showcases my projects and skills. Features include responsive design, dark mode with glassmorphism effects, optimized performance, and custom animations. The site demonstrates modern web development practices with a focus on user experience.",
@@ -22,30 +44,6 @@ export const projects: Project[] = [
     link: "#",
     demoLink: "#",
     githubLink: "https://github.com/no1pain/next-cv-website",
-  },
-  {
-    id: 2,
-    title: "Learning Platform Mobile App",
-    description:
-      "A modern mobile application built with React Native and Expo that provides an interactive learning experience. Users can browse courses, track their progress, and engage with educational content. Features include free courses, premium content, interactive learning, progress tracking, personalized recommendations, and community features. Currently in active development.",
-    technologies: [
-      "React Native",
-      "Expo",
-      "JavaScript",
-      "Redux Toolkit",
-      "Supabase",
-      "REST API",
-      "Authentication",
-      "Push Notifications",
-      "Offline Storage",
-      "Custom Hooks",
-      "Styled Components",
-    ],
-    icon: "M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z",
-    gradient: "from-green-500 via-teal-500 to-blue-500",
-    link: "#",
-    demoLink: "#",
-    githubLink: "https://github.com/no1pain/react-native-learn-platform",
   },
   {
     id: 3,

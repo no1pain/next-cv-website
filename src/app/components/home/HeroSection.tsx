@@ -16,7 +16,7 @@ export default function HeroSection() {
       <div className="w-48 h-48 relative rounded-full overflow-hidden border-4 border-transparent p-1 bg-gradient-to-r from-blue-500 to-purple-600 shadow-lg shadow-blue-500/20">
         <div className="absolute inset-0 rounded-full bg-[var(--card)] flex items-center justify-center text-gray-500">
           <Image
-            src="https://i.postimg.cc/9FT2FRym/IMG-3048.jpg"
+            src="https://i.ibb.co/mV62K9fw/IMG-3442.jpg"
             alt="Oleksandr Kazan"
             width={192}
             height={192}

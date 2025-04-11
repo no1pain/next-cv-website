@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export interface Project {
   id: number;
   title: string;
@@ -8,6 +10,7 @@ export interface Project {
   link: string;
   demoLink: string;
   githubLink: string;
+  previewImage?: string;
 }
 
 export default function ProjectCard({ project }: { project: Project }) {
@@ -20,8 +23,20 @@ export default function ProjectCard({ project }: { project: Project }) {
       }}
     >
       <div
-        className={`h-48 relative overflow-hidden bg-gradient-to-br ${project.gradient}`}
+        className={`h-60 relative overflow-hidden ${
+          project.previewImage ? "" : `bg-gradient-to-br ${project.gradient}`
+        }`}
       >
+        {project.previewImage && (
+          <div className="absolute inset-0">
+            <Image
+              src={project.previewImage}
+              alt={project.title}
+              fill
+              className="object-cover"
+            />
+          </div>
+        )}
         <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
           <div className="w-full h-full flex flex-wrap items-center justify-center gap-3 p-4">
             {project.technologies.slice(0, 4).map((tech) => (
