@@ -21,6 +21,8 @@ export default function HeroSection() {
             width={192}
             height={192}
             className="rounded-full"
+            unoptimized={true}
+            priority
           />
         </div>
       </div>
