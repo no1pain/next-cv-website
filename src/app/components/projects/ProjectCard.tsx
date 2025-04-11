@@ -34,6 +34,7 @@ export default function ProjectCard({ project }: { project: Project }) {
               alt={project.title}
               fill
               className="object-cover"
+              unoptimized={true}
             />
           </div>
         )}
