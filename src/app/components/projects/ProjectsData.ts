@@ -44,6 +44,7 @@ export const projects: Project[] = [
     link: "#",
     demoLink: "#",
     githubLink: "https://github.com/no1pain/next-cv-website",
+    previewImage: "/preview-images/cv.png",
   },
   {
     id: 3,
@@ -68,6 +69,7 @@ export const projects: Project[] = [
     link: "#",
     demoLink: "https://no1pain.github.io/Taskease_Manager/",
     githubLink: "https://github.com/no1pain/Taskease_Manager",
+    previewImage: "/preview-images/taskease-manager.png",
   },
   {
     id: 4,
@@ -91,6 +93,7 @@ export const projects: Project[] = [
     link: "#",
     demoLink: "https://no1pain.github.io/TileMaster_2048/",
     githubLink: "https://github.com/no1pain/TileMaster_2048",
+    previewImage: "/preview-images/tilemaster-2048.png",
   },
   {
     id: 6,
@@ -116,6 +119,7 @@ export const projects: Project[] = [
     link: "#",
     demoLink: "https://no1pain.github.io/Bakecraft_Studio/",
     githubLink: "https://github.com/no1pain/Bakecraft_Studio",
+    previewImage: "/preview-images/bakecraft-studio.png",
   },
   {
     id: 7,
@@ -139,5 +143,6 @@ export const projects: Project[] = [
     link: "#",
     demoLink: "https://no1pain.github.io/Velocity_Rides/",
     githubLink: "https://github.com/no1pain/Velocity_Rides",
+    previewImage: "/preview-images/velocity-rides.png",
   },
 ];

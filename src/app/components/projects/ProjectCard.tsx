@@ -37,12 +37,12 @@ export default function ProjectCard({ project }: { project: Project }) {
             />
           </div>
         )}
-        <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
           <div className="w-full h-full flex flex-wrap items-center justify-center gap-3 p-4">
             {project.technologies.slice(0, 4).map((tech) => (
               <div
                 key={tech}
-                className="px-3 py-2 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 text-white font-medium text-sm"
+                className="px-3 py-2 rounded-lg bg-black/40 backdrop-blur-sm border border-white/20 text-white font-medium text-sm"
               >
                 {tech}
               </div>
@@ -50,9 +50,9 @@ export default function ProjectCard({ project }: { project: Project }) {
           </div>
         </div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-[rgba(15,23,42,0.9)] to-transparent"></div>
+        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-[rgba(10,15,30,0.95)] to-transparent"></div>
         <div className="absolute bottom-4 left-4">
-          <h3 className="text-white text-xl font-bold">
+          <h3 className="text-white text-xl font-bold drop-shadow-md">
             {project.title}
             {project.id === 2 && (
               <span className="ml-2 text-xs font-normal px-2 py-1 bg-blue-500/30 rounded-full border border-blue-400/30">
