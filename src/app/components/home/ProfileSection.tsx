@@ -19,12 +19,6 @@ export default function ProfileSection() {
           authentication (JWT), and ensuring code quality with ESLint and
           Prettier.
         </p>
-        <p className="backdrop-blur-sm rounded-xl bg-white/5 p-4 border border-white/10">
-          Strong in problem-solving, having solved 100+ algorithmic challenges
-          on LeetCode, which improved my logical thinking and ability to handle
-          complex tasks. I thrive in collaborative environments, combining
-          problem-solving and teamwork to deliver practical solutions.
-        </p>
       </div>
     </section>
   );
