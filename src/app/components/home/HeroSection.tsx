@@ -36,10 +36,11 @@ export default function HeroSection() {
           Fullstack JavaScript Developer
         </h2>
         <p className="text-[var(--foreground)] max-w-2xl backdrop-blur-sm rounded-xl bg-white/5 p-4 border border-white/10 shadow-lg">
-          Fullstack JavaScript Developer specializing in building responsive web
-          applications and mobile solutions with React, Next.js, Node.js, and
-          modern databases. Passionate about creating efficient, scalable code
-          and optimizing web performance.
+          Fullstack JavaScript Developer with over 2 years of experience
+          specializing in building responsive web applications and mobile
+          solutions with React, Next.js, Node.js, and modern databases.
+          Passionate about creating efficient, scalable code and optimizing web
+          performance.
         </p>
       </div>
     </section>
