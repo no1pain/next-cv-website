@@ -11,23 +11,25 @@ export default function SkillsSection() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="backdrop-blur-sm rounded-xl bg-white/5 p-4 border border-white/10">
           <h3 className="text-xl font-semibold mb-3 text-[var(--primary)]">
-            Frontend
+            Frontend Development
           </h3>
           <div className="flex flex-wrap gap-2 mb-4">
             {[
-              "JavaScript",
-              "TypeScript",
-              "React",
-              "Next.js",
-              "Redux-toolkit",
-              "React Native (Expo)",
               "HTML5",
-              "CSS3",
-              "SCSS",
-              "Tailwind CSS",
-              "Material UI",
-              "Styled Components",
-              "Responsive Design",
+              "CSS3 (SCSS)",
+              "Bootstrap",
+              "Styled components",
+              "MUI",
+              "Javascript",
+              "React.js",
+              "Next.js",
+              "React Native",
+              "Redux",
+              "Typescript",
+              "GraphQL",
+              "REST API",
+              "AI Integration",
+              "MongoDB, PostgreSQL",
             ].map((skill) => (
               <span key={skill} className="skill-tag">
                 {skill}
@@ -38,19 +40,17 @@ export default function SkillsSection() {
 
         <div className="backdrop-blur-sm rounded-xl bg-white/5 p-4 border border-white/10">
           <h3 className="text-xl font-semibold mb-3 text-[var(--primary)]">
-            Backend & APIs
+            Backend Development
           </h3>
           <div className="flex flex-wrap gap-2 mb-4">
             {[
               "Node.js",
               "Express.js",
-              "REST API",
-              "WebSockets",
-              "JWT Authentication",
-              "Supabase",
-              "Firebase",
               "MongoDB",
               "PostgreSQL",
+              "REST API",
+              "WebSockets",
+              "AWS (EC2, Lambda, API Gateway, S3)",
             ].map((skill) => (
               <span key={skill} className="skill-tag">
                 {skill}
@@ -66,17 +66,11 @@ export default function SkillsSection() {
           <div className="flex flex-wrap gap-2 mb-4">
             {[
               "Git",
-              "GitHub",
-              "VS Code",
               "Webpack",
               "Vite",
-              "ESLint",
               "Prettier",
-              "npm",
-              "yarn",
-              "Figma",
-              "Jira",
-              "Agile",
+              "Eslint",
+              "Agile / Scrum",
             ].map((skill) => (
               <span key={skill} className="skill-tag">
                 {skill}
@@ -87,24 +81,23 @@ export default function SkillsSection() {
 
         <div className="backdrop-blur-sm rounded-xl bg-white/5 p-4 border border-white/10">
           <h3 className="text-xl font-semibold mb-3 text-[var(--primary)]">
-            Other Skills
+            Testing
           </h3>
           <div className="flex flex-wrap gap-2 mb-4">
-            {[
-              "Algorithms",
-              "Data Structures",
-              "Problem Solving",
-              "Responsive Design",
-              "Cross-browser Compatibility",
-              "Performance Optimization",
-              "SEO Basics",
-              "UI/UX Principles",
-              "Technical Documentation",
-            ].map((skill) => (
+            {["Jest", "React Testing Library"].map((skill) => (
               <span key={skill} className="skill-tag">
                 {skill}
               </span>
             ))}
+          </div>
+        </div>
+
+        <div className="backdrop-blur-sm rounded-xl bg-white/5 p-4 border border-white/10 col-span-1 md:col-span-2">
+          <h3 className="text-xl font-semibold mb-3 text-[var(--primary)]">
+            Language
+          </h3>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <span className="skill-tag">English: Upper-Intermediate</span>
           </div>
         </div>
       </div>

@@ -33,12 +33,13 @@ export default function HeroSection() {
           <div className="h-1 w-1/2 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mt-1"></div>
         </div>
         <h2 className="text-2xl text-[var(--muted)] mb-4">
-          Frontend Developer
+          Fullstack JavaScript Developer
         </h2>
         <p className="text-[var(--foreground)] max-w-2xl backdrop-blur-sm rounded-xl bg-white/5 p-4 border border-white/10 shadow-lg">
-          Frontend Developer with a technical background and over 1 year of
-          experience creating modern and efficient web interfaces. Proficient in
-          React, Next.js, Redux Toolkit, TypeScript, and Tailwind CSS.
+          Fullstack JavaScript Developer specializing in building responsive web
+          applications and mobile solutions with React, Next.js, Node.js, and
+          modern databases. Passionate about creating efficient, scalable code
+          and optimizing web performance.
         </p>
       </div>
     </section>

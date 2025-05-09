@@ -14,40 +14,81 @@ export default function ExperienceSection() {
         <div className="pl-6">
           <div className="flex flex-col md:flex-row md:justify-between mb-4">
             <h3 className="text-xl font-semibold gradient-text">
-              Frontend Developer
+              Fullstack JavaScript Developer
             </h3>
-            <span className="text-[var(--muted)]">2025 Jan - present</span>
+            <div className="flex flex-col items-end">
+              <span className="text-[var(--muted)]">2025 Apr - now</span>
+              <span className="text-[var(--muted)]">Remote</span>
+            </div>
           </div>
+          <h4 className="text-lg font-medium mb-2">Neteject AB</h4>
           <ul className="space-y-3 list-disc pl-5">
             <li className="text-[var(--foreground)]/90">
-              Developed{" "}
-              <span className="text-[var(--primary)]">user interfaces</span>{" "}
-              using{" "}
+              Built responsive UIs with{" "}
               <span className="text-[var(--primary)]">
-                React, Next.js, and TypeScript
+                React, TypeScript, and modern state tools (Redux, Context, React
+                Query)
               </span>
             </li>
             <li className="text-[var(--foreground)]/90">
-              Implemented{" "}
+              Developed RESTful APIs and backend logic using{" "}
+              <span className="text-[var(--primary)]">Node.js and Express</span>
+            </li>
+            <li className="text-[var(--foreground)]/90">
+              Designed scalable schemas in{" "}
               <span className="text-[var(--primary)]">
-                authentication and authorization
-              </span>{" "}
-              systems using <span className="text-[var(--primary)]">JWT</span>{" "}
-              and API integrations
+                PostgreSQL, MongoDB, and Supabase
+              </span>
             </li>
             <li className="text-[var(--foreground)]/90">
-              Worked with{" "}
-              <span className="text-[var(--primary)]">React Native</span>,
-              ensuring cross-platform compatibility and smooth UI/UX
+              Integrated third-party services (payments, messaging, file
+              storage)
             </li>
             <li className="text-[var(--foreground)]/90">
-              Integrated applications with databases such as{" "}
-              <span className="text-[var(--primary)]">Rehive and MongoDB</span>
+              Contributed to CI/CD and peer code reviews
             </li>
             <li className="text-[var(--foreground)]/90">
-              Worked with{" "}
-              <span className="text-[var(--primary)]">WebSockets</span> to
-              develop a real-time chat
+              Deployed and maintained services on{" "}
+              <span className="text-[var(--primary)]">Heroku and AWS</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="mb-8 relative backdrop-blur-sm rounded-xl bg-white/5 p-6 border border-white/10">
+        <div className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500 to-purple-600 rounded-full"></div>
+        <div className="pl-6">
+          <div className="flex flex-col md:flex-row md:justify-between mb-4">
+            <h3 className="text-xl font-semibold gradient-text">
+              Fullstack JavaScript Developer
+            </h3>
+            <div className="flex flex-col items-end">
+              <span className="text-[var(--muted)]">2025 Jan - 2025 May</span>
+              <span className="text-[var(--muted)]">Lviv, Ukraine</span>
+            </div>
+          </div>
+          <h4 className="text-lg font-medium mb-2">Insiders</h4>
+          <ul className="space-y-3 list-disc pl-5">
+            <li className="text-[var(--foreground)]/90">
+              Built user interfaces with{" "}
+              <span className="text-[var(--primary)]">
+                React, Next.js, and TypeScript
+              </span>
+              , focusing on performance and maintainability
+            </li>
+            <li className="text-[var(--foreground)]/90">
+              Developed cross-platform mobile apps using{" "}
+              <span className="text-[var(--primary)]">React Native</span> with
+              attention to UI/UX consistency
+            </li>
+            <li className="text-[var(--foreground)]/90">
+              Integrated real-time features using{" "}
+              <span className="text-[var(--primary)]">WebSockets</span> for chat
+              and live updates
+            </li>
+            <li className="text-[var(--foreground)]/90">
+              Connected applications to cloud-hosted databases and
+              authentication systems
             </li>
           </ul>
         </div>
@@ -77,10 +118,6 @@ export default function ExperienceSection() {
             <li className="text-[var(--foreground)]/90">
               Optimized web performance by reducing load times and ensuring
               efficient rendering processes
-            </li>
-            <li className="text-[var(--foreground)]/90">
-              Participated in code reviews and provided constructive feedback to
-              maintain high code quality standards
             </li>
           </ul>
         </div>

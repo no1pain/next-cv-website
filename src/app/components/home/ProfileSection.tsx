@@ -11,13 +11,14 @@ export default function ProfileSection() {
       <h2 className="section-title gradient">Profile</h2>
       <div className="space-y-4">
         <p className="backdrop-blur-sm rounded-xl bg-white/5 p-4 border border-white/10">
-          Frontend Developer with a technical background and over 1 year of
-          experience creating modern and efficient web interfaces. Proficient in
-          React, Next.js, Redux Toolkit, TypeScript, and Tailwind CSS, with
-          hands-on expertise in React Native (Expo), WebSockets, and REST APIs.
-          Skilled in building scalable web and mobile solutions, implementing
-          authentication (JWT), and ensuring code quality with ESLint and
-          Prettier.
+          Fullstack JavaScript Developer with expertise in building responsive,
+          scalable web applications and mobile solutions. Skilled in modern
+          frontend technologies including React, Next.js, TypeScript, and Redux,
+          as well as backend development with Node.js, Express, and database
+          management (PostgreSQL, MongoDB). Experienced in implementing RESTful
+          APIs, WebSockets for real-time features, and integrating third-party
+          services. Proficient in deployment workflows using AWS and Heroku with
+          a strong focus on code quality and performance optimization.
         </p>
       </div>
     </section>
