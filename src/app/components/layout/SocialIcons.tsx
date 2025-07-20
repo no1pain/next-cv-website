@@ -55,8 +55,7 @@ export default function SocialIcons() {
         href="https://github.com/no1pain"
         target="_blank"
         rel="noopener noreferrer"
-        style={{ color: "var(--muted)" }}
-        className="hover:text-[var(--primary)] transition-colors"
+        className="text-gray-400 hover:text-purple-400 transition-colors duration-300"
       >
         <GitHubIcon />
       </a>
@@ -64,8 +63,7 @@ export default function SocialIcons() {
         href="https://www.linkedin.com/in/oleksandr-kazan-465771341/"
         target="_blank"
         rel="noopener noreferrer"
-        style={{ color: "var(--muted)" }}
-        className="hover:text-[var(--primary)] transition-colors"
+        className="text-gray-400 hover:text-purple-400 transition-colors duration-300"
       >
         <LinkedInIcon />
       </a>
@@ -73,8 +71,7 @@ export default function SocialIcons() {
         href="https://t.me/wxxzss"
         target="_blank"
         rel="noopener noreferrer"
-        style={{ color: "var(--muted)" }}
-        className="hover:text-[var(--primary)] transition-colors"
+        className="text-gray-400 hover:text-purple-400 transition-colors duration-300"
       >
         <TelegramIcon />
       </a>

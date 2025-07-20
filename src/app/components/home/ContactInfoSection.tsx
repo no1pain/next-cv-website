@@ -1,16 +1,18 @@
 export default function ContactInfoSection() {
   return (
     <section
-      className="card p-8 rounded-3xl backdrop-blur-sm border border-white/10 shadow-xl"
+      className="p-8 rounded-3xl backdrop-blur-sm border border-gray-700/30 shadow-xl"
       style={{
         background:
-          "linear-gradient(145deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.8))",
+          "linear-gradient(145deg, rgba(17, 24, 39, 0.9), rgba(31, 41, 55, 0.8))",
       }}
     >
-      <h2 className="section-title gradient">Contact Information</h2>
+      <h2 className="text-3xl font-bold text-white mb-8 pb-3 border-b border-gray-700/50">
+        Contact Information
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all duration-300 group">
-          <div className="p-3 rounded-full bg-blue-500/10 text-[var(--primary)] group-hover:bg-blue-500/20 transition-all duration-300">
+        <div className="flex items-center gap-3 p-4 rounded-2xl hover:bg-gray-800/50 transition-all duration-300 group border border-gray-700/30">
+          <div className="p-3 rounded-full bg-purple-600/20 text-purple-400 group-hover:bg-purple-600/30 transition-all duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -26,10 +28,10 @@ export default function ContactInfoSection() {
               />
             </svg>
           </div>
-          <span>fe.oleksandr.kazan@gmail.com</span>
+          <span className="text-gray-300">fe.oleksandr.kazan@gmail.com</span>
         </div>
-        <div className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all duration-300 group">
-          <div className="p-3 rounded-full bg-blue-500/10 text-[var(--primary)] group-hover:bg-blue-500/20 transition-all duration-300">
+        <div className="flex items-center gap-3 p-4 rounded-2xl hover:bg-gray-800/50 transition-all duration-300 group border border-gray-700/30">
+          <div className="p-3 rounded-full bg-purple-600/20 text-purple-400 group-hover:bg-purple-600/30 transition-all duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -45,10 +47,15 @@ export default function ContactInfoSection() {
               />
             </svg>
           </div>
-          <span>+38 093 473 6590</span>
+          <span className="text-gray-300">+38 093 473 6590</span>
         </div>
-        <div className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all duration-300 group">
-          <div className="p-3 rounded-full bg-blue-500/10 text-[var(--primary)] group-hover:bg-blue-500/20 transition-all duration-300">
+        <a
+          href="https://www.google.com/maps/place/Lviv,+Lviv+Oblast,+Ukraine"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 p-4 rounded-2xl hover:bg-gray-800/50 transition-all duration-300 group border border-gray-700/30 hover:border-purple-600/50 cursor-pointer"
+        >
+          <div className="p-3 rounded-full bg-purple-600/20 text-purple-400 group-hover:bg-purple-600/30 transition-all duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -70,10 +77,17 @@ export default function ContactInfoSection() {
               />
             </svg>
           </div>
-          <span>Lviv, Ukraine, remote</span>
-        </div>
-        <div className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all duration-300 group">
-          <div className="p-3 rounded-full bg-blue-500/10 text-[var(--primary)] group-hover:bg-blue-500/20 transition-all duration-300">
+          <span className="text-purple-400 group-hover:text-purple-300 transition-colors duration-300">
+            Lviv, Ukraine, remote
+          </span>
+        </a>
+        <a
+          href="https://github.com/no1pain"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 p-4 rounded-2xl hover:bg-gray-800/50 transition-all duration-300 group border border-gray-700/30 hover:border-purple-600/50 cursor-pointer"
+        >
+          <div className="p-3 rounded-full bg-purple-600/20 text-purple-400 group-hover:bg-purple-600/30 transition-all duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -89,15 +103,17 @@ export default function ContactInfoSection() {
               />
             </svg>
           </div>
-          <a
-            href="https://github.com/no1pain"
-            className="text-[var(--primary)] hover:underline"
-          >
+          <span className="text-purple-400 group-hover:text-purple-300 transition-colors duration-300">
             GitHub
-          </a>
-        </div>
-        <div className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all duration-300 group">
-          <div className="p-3 rounded-full bg-blue-500/10 text-[var(--primary)] group-hover:bg-blue-500/20 transition-all duration-300">
+          </span>
+        </a>
+        <a
+          href="https://t.me/wxxzss"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 p-4 rounded-2xl hover:bg-gray-800/50 transition-all duration-300 group border border-gray-700/30 hover:border-purple-600/50 cursor-pointer"
+        >
+          <div className="p-3 rounded-full bg-purple-600/20 text-purple-400 group-hover:bg-purple-600/30 transition-all duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -113,15 +129,17 @@ export default function ContactInfoSection() {
               />
             </svg>
           </div>
-          <a
-            href="https://t.me/wxxzss"
-            className="text-[var(--primary)] hover:underline"
-          >
+          <span className="text-purple-400 group-hover:text-purple-300 transition-colors duration-300">
             Telegram: @wxxzss
-          </a>
-        </div>
-        <div className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all duration-300 group">
-          <div className="p-3 rounded-full bg-blue-500/10 text-[var(--primary)] group-hover:bg-blue-500/20 transition-all duration-300">
+          </span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/oleksandr-kazan-465771341/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 p-4 rounded-2xl hover:bg-gray-800/50 transition-all duration-300 group border border-gray-700/30 hover:border-purple-600/50 cursor-pointer"
+        >
+          <div className="p-3 rounded-full bg-purple-600/20 text-purple-400 group-hover:bg-purple-600/30 transition-all duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -144,13 +162,10 @@ export default function ContactInfoSection() {
               <circle cx="4" cy="4" r="2" stroke="currentColor" />
             </svg>
           </div>
-          <a
-            href="https://www.linkedin.com/in/oleksandr-kazan-465771341/"
-            className="text-[var(--primary)] hover:underline"
-          >
+          <span className="text-purple-400 group-hover:text-purple-300 transition-colors duration-300">
             LinkedIn
-          </a>
-        </div>
+          </span>
+        </a>
       </div>
     </section>
   );

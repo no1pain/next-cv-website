@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0f172a;
+  --background: #0f0f23;
   --foreground: #f8fafc;
-  --primary: #3b82f6;
-  --primary-dark: #2563eb;
+  --primary: #a855f7;
+  --primary-dark: #9333ea;
   --secondary: #10b981;
   --accent: #8b5cf6;
-  --card: #1e293b;
-  --card-hover: #334155;
-  --border: #334155;
-  --muted: #64748b;
+  --card: #1a1a2e;
+  --card-hover: #16213e;
+  --border: #374151;
+  --muted: #6b7280;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, #3b82f6, #8b5cf6);
+  background-image: linear-gradient(to right, #a855f7, #8b5cf6);
 }
 
 .card {
@@ -86,7 +86,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, #3b82f6, #8b5cf6);
+  background-image: linear-gradient(to right, #a855f7, #8b5cf6);
 }
 
 .skill-tag {
