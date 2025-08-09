@@ -5,7 +5,7 @@ export const projects: Project[] = [
     id: 1,
     title: "Timely",
     description:
-      "Timely is a comprehensive fullstack time tracking platform built with Next.js and TypeScript. Features enterprise-grade architecture with PostgreSQL database, real-time WebSocket connections, and advanced analytics. Implements secure JWT authentication, optimized database queries with Prisma ORM, and scalable backend API. The application includes sophisticated time tracking algorithms, project management capabilities, detailed reporting dashboards, and real-time collaborative features for teams.",
+      "Timely is a comprehensive fullstack time tracking SaaS platform built with Next.js and TypeScript. This startup project features enterprise-grade architecture with PostgreSQL database, real-time WebSocket connections, and advanced analytics. Implements secure JWT authentication, optimized database queries with Prisma ORM, and scalable backend API. The application includes sophisticated time tracking algorithms, project management capabilities, detailed reporting dashboards, and real-time collaborative features for teams.",
     technologies: [
       "Next.js 14",
       "TypeScript",
@@ -26,8 +26,8 @@ export const projects: Project[] = [
     icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
     gradient: "from-emerald-500 via-teal-500 to-cyan-500",
     link: "#",
-    demoLink: "#",
-    githubLink: "#",
+    demoLink: "https://timely-web-coral.vercel.app/",
+    githubLink: "",
     previewImage: "/preview-images/timely.png",
   },
   {
