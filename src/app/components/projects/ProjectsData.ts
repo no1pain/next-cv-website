@@ -3,6 +3,35 @@ import { Project } from "./ProjectCard";
 export const projects: Project[] = [
   {
     id: 1,
+    title: "Timely",
+    description:
+      "Timely is a comprehensive fullstack time tracking platform built with Next.js and TypeScript. Features enterprise-grade architecture with PostgreSQL database, real-time WebSocket connections, and advanced analytics. Implements secure JWT authentication, optimized database queries with Prisma ORM, and scalable backend API. The application includes sophisticated time tracking algorithms, project management capabilities, detailed reporting dashboards, and real-time collaborative features for teams.",
+    technologies: [
+      "Next.js 14",
+      "TypeScript",
+      "React Query",
+      "Zustand",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "JWT Authentication",
+      "Supabase",
+      "Tailwind CSS",
+      "Chart.js",
+      "WebSockets",
+      "REST API",
+      "Responsive Design",
+    ],
+    icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
+    gradient: "from-emerald-500 via-teal-500 to-cyan-500",
+    link: "#",
+    demoLink: "#",
+    githubLink: "#",
+    previewImage: "/preview-images/timely.png",
+  },
+  {
+    id: 2,
     title: "Linx Net",
     description:
       "Linx-Net is a modern, user-friendly e-commerce web application built with React and TypeScript. The platform offers a seamless shopping experience for electronic devices, including mobile phones, tablets, and accessories. It uses a REST API for product data and user interactions, with dynamic content loading and state management.",
@@ -47,7 +76,7 @@ export const projects: Project[] = [
     previewImage: "/preview-images/cv.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "TaskEase Manager",
     description:
       "A lightweight and intuitive to-do list application designed to simplify task management and boost productivity. The app features a responsive and clean interface built with modern web technologies, ensuring a smooth user experience. It includes a fully configured build system using Webpack, support for modular JavaScript (ES6+), and SCSS for styling, with ESLint and Prettier integration for maintaining clean and consistent code quality.",
@@ -72,7 +101,7 @@ export const projects: Project[] = [
     previewImage: "/preview-images/taskease-manager.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "TileMaster 2048",
     description:
       "This project is a 2048 game implementation, showcasing the use of modern web technologies to create an engaging and interactive experience. The game is developed using JavaScript, styled with SCSS, and follows best practices for code quality and version control.",
